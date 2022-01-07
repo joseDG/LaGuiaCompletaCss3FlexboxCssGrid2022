@@ -1,0 +1,8 @@
+ul li:first-child {
+  border: 2px solid red;
+}
+
+/*Or*/
+ul li:first-of-type {
+  border: 2px solid red;
+}

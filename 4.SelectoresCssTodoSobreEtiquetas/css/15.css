@@ -1,0 +1,9 @@
+/*elige la primer letra*/
+.primer-letra::first-letter {
+  font-size: 20rem;
+}
+
+/*elige la primera linea*/
+.primer-linea::first-line {
+  font-size: 4rem;
+}

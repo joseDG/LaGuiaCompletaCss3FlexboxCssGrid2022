@@ -1,0 +1,11 @@
+/*Todos los elementos excepto uno de los elmentos*/
+
+/*selecciona todos los parrafos menos .texto*/
+p:not(.texto) {
+  color: red;
+}
+
+/*selecionar multiples elemntos */
+p:not(.texto):not(.oferta) {
+  color: red;
+}
