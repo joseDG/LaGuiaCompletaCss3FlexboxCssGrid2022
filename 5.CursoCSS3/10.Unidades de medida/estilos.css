@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  font-size: 20px;
+  height: 600px;
+}
+
+.opinion {
+  font-size: 2em;
+  /* 2*20 = 40px */
+  padding: 1em;
+  /* 1*40 = 40px */
+  width: 70%;
+  margin: 40px auto;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 1em;
+}
+
+.text {
+  font-size: 20px;
+}
+
+/* 
+px => unidades de medidas fijas
+esto se puede poner una imagen adaptar disposivos mosviles
+viewport width vw => 
+viewport height vh =>  
+rem => unidad relativa
+em => suele usar  padding
+*/
+
+.container {
+  /* max-width: 400px; define el tamaño maximo del container
+    max-height: 400px; define el tamaño mas alto del container
+    min-width: 200px;  define el ancho mas alto del container
+    min-height: 200px; */
+  /* width: 50%; */
+  /* height: 80%; */
+  /* height: 1200px; */
+  background: steelblue;
+  width: 100vw;
+  height: 100vh;
+  /* margin: 30px auto; */
+}
+
+.children {
+  width: 100%;
+  height: 50%;
+  background: crimson;
+}
