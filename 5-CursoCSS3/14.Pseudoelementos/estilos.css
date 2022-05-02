@@ -1,3 +1,5 @@
+/*Los pseudoElementos se ponen con 4puntos pilas*/
+
 *, ::after, ::before{
     margin: 0;
     padding: 0;
