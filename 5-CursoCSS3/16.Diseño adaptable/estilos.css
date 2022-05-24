@@ -23,24 +23,24 @@
 
 
 
-/* 
+
 @media screen and (max-width:400px), (min-width:900px){
     .title{
         background: #000;
         color: #fff;
     }
-} */
+}
 
 
-/* 
+
 @media screen and (orientation:portrait) and (max-width:600px){
     .title{
         text-align: left;
         background: steelblue;
     }
-} */
+}
 
-/* @media screen and (orientation:portrait){
+@media screen and (orientation:portrait){
     .title{
         margin: 0;
         color: steelblue;
@@ -48,7 +48,7 @@
         height: 100vh;
     }
 }
- */
+
 
 /* @media <media-type> and (expression){
     
